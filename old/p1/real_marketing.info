@@ -1,0 +1,147 @@
+A) Title: Income Data
+
+B) Relevant Information:
+
+Marketing Database.
+
+Source: Impact Resources, Inc., Columbus, OH (1987).
+A total of N=9409 questionnaires containg 502 questions were
+filled out by shopping mall customers in the San Francisco Bay area.
+
+The dataset income.data is an extract from this survey. It consists of
+14 demographic attributes. The dataset is a good mixture of categorical
+and continuos variables with a lot of missing data. This is characteristic
+for data mining applications.
+
+C) The goal is to predict the Anual Income of Household from the other 13
+demographics  attributes.
+
+D) Attribute Information
+
+ 1    ANNUAL INCOME OF HOUSEHOLD (PERSONAL INCOME IF SINGLE)
+             0. Less than $10,000
+             1. $10,000 to $14,999
+             2. $15,000 to $19,999
+             3. $20,000 to $24,999
+             4. $25,000 to $29,999
+             5. $30,000 to $39,999
+             6. $40,000 to $49,999
+             7. $50,000 to $74,999
+             8. $75,000 or more
+
+
+ 2    SEX
+             9. Male
+             10. Female
+
+ 3    MARITAL STATUS
+             11. Married
+             12. Living together, not married
+             13. Divorced or separated
+             14. Widowed
+             15. Single, never married
+
+ 4    AGE
+             16. 14 thru 17
+             17. 18 thru 24
+             18. 25 thru 34
+             19. 35 thru 44
+             20. 45 thru 54
+             21. 55 thru 64
+             22. 65 and Over
+
+ 5    EDUCATION
+             23. Grade 8 or less
+             24. Grades 9 to 11
+             25. Graduated high school
+             26. 1 to 3 years of college
+             27. College graduate
+             28. Grad Study
+
+ 6    OCCUPATION
+             29. Professional/Managerial
+             30. Sales Worker
+             31. Factory Worker/Laborer/Driver
+             32. Clerical/Service Worker
+             33. Homemaker
+             34. Student, HS or College
+             35. Military
+             36. Retired
+             37. Unemployed
+
+
+
+ 7    HOW LONG HAVE YOU LIVED IN THE SAN FRAN./OAKLAND/SAN JOSE AREA?
+             38. Less than one year
+             39. One to three years
+             40. Four to six years
+             41. Seven to ten years
+             42. More than ten years
+
+ 8    DUAL INCOMES (IF MARRIED)
+             43. Not Married
+             44. Yes
+             45. No
+
+ 9    PERSONS IN YOUR HOUSEHOLD
+             46. One
+             47. Two
+             48. Three
+             49. Four
+             50. Five
+             51. Six
+             52. Seven
+             53. Eight
+             54. Nine or more
+
+ 10    PERSONS IN HOUSEHOLD UNDER 18
+             55. None
+             56. One
+             57. Two
+             58. Three
+             59. Four
+             60. Five
+             61. Six
+             62. Seven
+             63. Eight
+             64. Nine or more
+
+ 11    HOUSEHOLDER STATUS
+             65. Own
+             66. Rent
+             67. Live with Parents/Family
+
+ 12    TYPE OF HOME
+             68. House
+             69. Condominium
+             70. Apartment
+             71. Mobile Home
+             72. Other
+
+ 13    ETHNIC CLASSIFICATION
+             73. American Indian
+             74. Asian
+             75. Black
+             76. East Indian
+             77. Hispanic
+             78. Pacific Islander
+             79. White
+             80. Other
+
+ 14    WHAT LANGUAGE IS SPOKEN MOST OFTEN IN YOUR HOME?
+             81. English
+             82. Spanish
+             83. Other
+
+
+E) Number of instances: 8993.
+
+   These are obtained from the original dataset with 9409 instances,
+by removing those observations with the response (Annual Income)
+missing.
+
+
+F)  The missing value flag is NA.
+
+
+
